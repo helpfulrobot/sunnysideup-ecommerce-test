@@ -1468,8 +1468,8 @@ class DefaultRecordsForEcommerce extends DataObject {
 			array("T" => "EcommerceDBConfig", "F" => "EmailLogoID", "V" => $this->getRandomImageID(), "W" => ""),
 			array("T" => "EcommerceDBConfig", "F" => "DefaultProductImageID", "V" => $this->getRandomImageID(), "W" => ""),
 
-			array("T" => "CartPage", "F" => "ContinuePageID", "V" => DataObject::get_one("ProductGroup")->ID, "W" => ""),
-			array("T" => "CartPage_Live", "F" => "ContinuePageID", "V" => DataObject::get_one("ProductGroup")->ID, "W" => ""),
+			//array("T" => "CartPage", "F" => "ContinuePageID", "V" => DataObject::get_one("ProductGroup")->ID, "W" => ""),
+			//array("T" => "CartPage_Live", "F" => "ContinuePageID", "V" => DataObject::get_one("ProductGroup")->ID, "W" => ""),
 		);
 		foreach($array as $innerArray) {
 			if(isset($innerArray["W"]) && $innerArray["W"]) {				$innerArray["W"] = " WHERE ".$innerArray["W"];
