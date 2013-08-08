@@ -4,8 +4,10 @@
 	<div id="VersionInfo" style="margin-top: 30px;">
 	<h3>What Version should I use?</h3>
 	<p>
-		Below you see the TRUNK version.  Trunk is being used on this site.
-		For any production site, we recommend using a branch (e.g. 1.0, 2.0, 3.0).
+		For e-commerce, we have trunk, which is usually the latest and the greatest.
+		From time to time, we update the branches.
+		In general, the branches match with the Silverstripe (framework/sapphire + cms) versions.
+		This site is running the e-commerce 2.5 branch (post 2.4 fixes) and 2.4 modules.
 		Branches only get <i>patched</i> if community members report bugs.
 		If you prefer a "never changing" tag then you can make your own by fixing a branch to a revision number or creating a github fork.
 	</p>
